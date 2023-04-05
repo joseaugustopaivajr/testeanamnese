@@ -36,7 +36,7 @@ const database = {
 	sim: 'Você deve considerar consultar um médico para discutir as opções de tratamento.',
 	não: 'Isso é ótimo'
   },
-  'Você quer namorar comigo ?':{
+  'BEATRIZ LEITE DE CASTRO GOUVEA VOCÊ QUER NAMORAR COMIGO? ?':{
 	sim: 'Te amo <3',
 	sim: 'Te amo <3'
   },
