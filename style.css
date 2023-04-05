@@ -1,0 +1,129 @@
+/* CSS para o quiz */
+
+body {
+  background-color: #f5f8fa;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  color: #1da1f2;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+form {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type='text'],
+select {
+  font-size: 1.2rem;
+  border: none;
+  border-bottom: 2px solid #1da1f2;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M17.75 6.25L10 14.25L2.25 6.25L1 7.5L10 16.5L19 7.5L17.75 6.25Z'/%3E%3C/svg%3E")
+    no-repeat center right 1rem;
+  background-size: 1.5rem;
+}
+
+input[type='submit'] {
+  background-color: #1da1f2;
+  color: #ffffff;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type='submit']:hover {
+  background-color: #1a91da;
+}
+
+#output {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* CSS para deixar o estilo visual parecido com o do Twitter */
+
+/* Cores */
+
+:root {
+  --blue: #1da1f2;
+  --dark-blue: #1a91da;
+  --light-blue: #eff9ff;
+  --gray: #657786;
+  --light-gray: #aab8c2;
+  --white: #ffffff;
+}
+
+/* Fontes */
+
+body {
+  font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+/* Links */
+
+a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Botão */
+
+button {
+  background-color: var(--blue);
+  color: var(--white);
+  border: none;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--dark-blue);
+}
+
+/* Cabeçalho */
+
+.header {
+  background-color: var(--white);
+}
+#form label[for="age"], 
+#form label[for="maritalStatus"] {
+  width: 100%;
+  max-width: 200px;
+}

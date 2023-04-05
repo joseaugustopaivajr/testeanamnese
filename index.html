@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Diagnóstico Personalizado</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Diagnóstico Personalizado</h1>
+    <form id="form">
+      <div class="form-control">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" placeholder="Seu nome">
+      </div>
+      <div class="form-control">
+        <label for="age">Idade:</label>
+        <input type="text" id="age" name="age" placeholder="Sua idade">
+      </div>
+      <div class="form-control">
+        <label for="maritalStatus">Estado Civil:</label>
+        <select id="maritalStatus" name="maritalStatus">
+          <option value="solteiro">Solteiro(a)</option>
+          <option value="casado">Casado(a)</option>
+          <option value="divorciado">Divorciado(a)</option>
+          <option value="viuvo">Viúvo(a)</option>
+        </select>
+      </div>
+      <button id="download-button" type="submit">Enviar</button>
+    </form>
+    <div id="output"></div>
+  </div>
+  <script src="quiz.js"></script>
+</body>
+</html>
